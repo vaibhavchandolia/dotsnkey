@@ -1,0 +1,21 @@
+.blogPosts-con{
+    display: flex;
+    background-color: white;
+    gap: 5px;
+    width: 95%;
+    overflow-x: scroll;
+}
+
+.blog-con{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 176, 14);
+    min-width: 300px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+
+.blog-con *{
+    text-align: justify;
+}
